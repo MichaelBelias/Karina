@@ -1,0 +1,65 @@
+Study_no : each individual per unique study has it's own number
+No_study : each individual (published) study has it's own number
+Age : continuous
+Age_binair : binair - < 70 years or older
+Gender : male / female
+RBCbefore_binairy : number of RBC transfusions in year prior to initiating treatment, split up in <8 or more
+RBC_before : number of RBC transfusions in year prior to initiating treatment (octreotide)
+RBC_duringOCT : number of RBC transfusions during year of treatment (octreotide)
+Naam : name of the first author of the published study
+
+
+
+Outcome measures (below)
+percentual_logical : percentual (%) decrease of RBC transfusions during octreotide treatment year compared to baseline
+MIN_meandiff : number of RBC treansfusions less during octreotide treatment 
+meandiff_2 : the difference between baseline and treatment (same as above, but then positive)
+percentual_decrease : same as %_logical, but then the psoitive
+proportional_decrease : proportion of decrease between year baseline and treatment with octreotide
+Bin_Response_50 : decrease of transfusions with 50%: yes / no
+Grainne_response_3cat : complete (0 RBC), partial (some reduction), non (0 or increase)
+Klimova_response_3cat : complete (o RBC), partial (=50%) and non (<50%)
+NEW_3cat_Response_75pr : (o RBC), partial (=75%) en non (<75%)
+
+
+
+
+
+Irontherapy_prior : iron therapy prior to octreotide: yes / no
+Loc_SB : location angiodysplasia (=disease) in small bowel
+Loc_stomach : angiodysplasia in stomach
+Loc_colon : angiodysplasia in colon
+Multiple_sites : more than 1 location angiodysplasia: yes / no
+Exclusion : patient that had to be excluded (for example no agniodysplasia), but there are none left in this database
+Hb_prior : hemoglobin level prior to treatment
+Prior_APC : APC treatment prior to octreotide: yes / no
+SSA_dose : doses of the drug / treatment octreotide
+SSAdose_binair : low (<20 mg) or high dose (20 or more)
+Hb_during_afteroneyear : Hemoglobin level after year of octreotide treatment
+Irontherapy_after : need for iron therapy during octreotide treatment: yes / no
+Side_effects : side-effects of octreotide: yes / no
+Type_sideeffect : explanation of side-effects in different categories
+Stop_SAE : octreotide stopped because of serious adverse event: yes / no
+FU_months : follow up in months
+
+In past medical history (the disease / drug below), and then: yes / no
+
+Hypertension :
+Cirrhosis :
+Coagulopathy :
+CKD : chronic kidney disease
+Hemodialysis :
+IschamicHD : ischaemic heart disease
+Arrythmia :
+ValvularHD : valvular heart disease
+CongestiveHF : congestive heart failure
+COPD_resp :
+Hyperlipidemia :
+Reflux :
+Thyroid_dys :
+DM : diabetes
+RA : reumatoide artritis
+VTE : venous thrombo embolism
+Bloedverdunners : 
+Antiaggregation :
+Anticoagulantia :
