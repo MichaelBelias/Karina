@@ -56,7 +56,7 @@ k=1
 
 for(i in names(KarinaDS)){
   assign(paste("Uni.Fit", k,sep="") ,eval(parse(text=paste( "glmer(data=KarinaDS, Bin_Response_50~", i ,"+(1|No_study), family=binomial)"))) )
-  k=k+1
+    k=k+1
   
 }
 
@@ -129,3 +129,5 @@ imp<- mice(KarinaDS,m = 10 )
 
 fit <- with(imp, polr(as.factor(Klimova_response_3cat) ~ Age , Hess=TRUE))
 pool(fit)
+
+
